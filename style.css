@@ -1,0 +1,178 @@
+body{
+  margin:0;
+  font-family:arial,helvetica,freesans,
+  sans-serif;
+}
+/*centers the text*/
+.fixed-width{
+  width:1135px;
+  margin: 0 auto;
+}
+
+.top-bar{
+  padding-bottom:8px;
+  width:100%;
+  height:31px;
+  color:black;
+  background-color:white;  
+}
+
+#logo{
+  float:left;
+  padding-top:6px;
+  padding-right:10px;
+  padding-bottom:5px;
+  border-right:1px solid #B4B4B4; 
+}
+.sign-up{
+  float:left;
+  padding:10px; 
+  font-weight:bold;
+  font-size:1.1em;
+  padding-right:33px;
+  padding-bottom:6px;
+  border-right:1px solid #B4B4B4;
+}
+.top-bar ul{
+  margin:0;
+  padding:0;
+}
+.top-bar ul li{
+  float:left;
+  font-weight:bold;
+  font-size:1.1em;
+  list-style:none;
+  padding:10px 10px 8px 14px;
+  padding-bottom:9px;
+  float:left;
+  border-right:1px solid #B4B4B4; 
+}
+.sign-up:hover{
+  color:black;
+  border-bottom:blue;
+}
+
+#search{
+  float:left;
+  width:100px;
+  padding:10px;
+}
+#search input{
+  padding:4px;
+  margin-left:10px;
+  background-color:lightgray;
+  border:1px solid lightgray;
+  background-image:              url("http://static.bbci.co.uk/frameworks/barlesque/2.88.1/orb/4/img/orb-search-dark.png");
+  background-repeat:no-repeat;
+  background-position:right center;
+}
+.news-bar{
+  background:#BB1919;
+  width:100%;
+  height:60px;
+  color:white;
+}
+.news-bar p{
+  padding:0;
+  margin:0;
+  font-size:2.5em;
+}
+
+.category-bar{
+  width:100%;
+  height:30px;
+  background-color:#A91717;
+  color:white;
+}
+.category-bar ul{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+.category-bar ul li{
+  float:left;
+  position:relative;
+  top:2px;
+  right:10px;
+  font-size:0.9em;
+  padding:4px 5px 5px 10px;
+  border-right:1px solid #BB4545;
+}
+.location-bar{
+  width:100%;
+  height:40px;
+  background-color:white;
+  color:black;
+}
+.location-bar ul{
+   padding:0;
+   margin:0;
+   list-style:none;
+}
+.location-bar ul li{
+  float:left;
+  padding:0px 12px 0px 12px;
+  position:relative;
+  top:px;
+  font-size:0.9em;
+  border-right:1px solid #B4B4B4;
+  position:relative;
+  right:13px;
+  top:9px;
+}
+#bold{
+  font-weight:bold;
+  font-size:1.3em;
+}
+.content{
+  width:100%;
+  background-color:white;
+  color:#686868;
+}
+.content h1:hover{
+  color:#1167A8;
+}
+
+.content p{
+  width:215px;
+}
+
+#content-links{
+  width:230px;
+  margin-top:60px;
+  line-height:1.8em;
+}
+.content a{
+  text-decoration:none;
+  color:black;
+}
+.content a:hover{
+  text-decoration:none;
+  color:blue;
+}
+.content img{
+  float:right;
+  padding:40px 240px 180px 150px;
+  position:relative;
+  right:500px;
+}
+
+.watch-listen{
+  float:right;
+  position:relative;
+  bottom:290px;
+  left:350px;
+  border-left:1px solid #B4B4B4;
+  padding:0 0 0 25px;
+  
+}
+.watch-listen h2{
+  font-weight:100;
+  margin:0 0 15px 0;
+  padding:0;
+}
+.watch-listen img{
+  padding:0px 70px 10px 90px;
+  position:relative;
+  right:95px;
+}
